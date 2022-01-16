@@ -29,7 +29,7 @@ function plain_to_cipher(){
         l = l - 97;
         r = ss + c[25-(l)] + ed;
     }
-    document.getElementsByClassName("box")[0].innerText = r;
+    document.getElementsByClassName("cipher-text")[0].value = r;
 }
 
 //Function to decipher cipher text into plain text
@@ -37,7 +37,7 @@ function plain_to_cipher(){
 function cipher_to_plain(){
 
     // takes input value of cipher text
-    let inputValue = document.getElementsByClassName("cipher-text2")[0]     
+    let inputValue = document.getElementsByClassName("cipher-text")[0]     
     
     var r = inputValue.value;
     const arr = [];
@@ -63,7 +63,7 @@ function cipher_to_plain(){
         l = l - 97;
         r = ss + c[25-(l)] + ed;
     }
-    document.getElementsByClassName("box2")[0].innerText = r;
+    document.getElementsByClassName("plain-text")[0].value = r;
 }
 
 // triggered when encipher arrow is clicked
