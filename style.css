@@ -7,33 +7,15 @@
 
 textarea{
     margin-top: -37px;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 .arr{
-    margin: 20px 20px;
+    margin: 150px 20px;
     width: 180px;
     padding: 30px;
     padding-left: 0px;
     padding-right: 0px;
-}
-
-.box{
-    height: 7.7em;
-    width: 15em;
-    background-color: white;
-    margin: -73px 5px 5px 45px; 
-    border-radius: 25px;
-    font-size: medium;
-}
-
-.box2{
-    height: 7.7em;
-    width: 15em;
-    margin: -73px 5px 5px 45px;
-    background-color: white;
-    border-radius: 25px;
-    font-size: medium;
 }
 
 .cipher{
@@ -44,8 +26,8 @@ textarea{
 } 
 
 .parent{
-width: 900px;
-  height: 220px;
+width: 1000px;
+  height: 500px;
   border: 2px solid blue ;
   border-radius: 25px;
   display: flex;
